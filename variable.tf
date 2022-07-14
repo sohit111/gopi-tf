@@ -8,5 +8,9 @@ variable "ami" {
 
 variable "instance_type" {
     instance_type = "t2.micro"
+}
+
+variable "subnet_id" {
+    default = "subnet-09dc4204a684abfb6"
   
 }
